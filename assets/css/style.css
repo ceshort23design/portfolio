@@ -23,11 +23,17 @@ Header {
 Header h1 {
     font-weight: Bold;
     font-size:  36px;
+
+    height: 41px;
 }
 
 Header a {
     text-decoration: none;
     color: black;
+ 
+}
+header nav {
+    margin-right: 40px;
 }
 
 Header nav ul {
@@ -39,6 +45,13 @@ Header nav ul {
 
 Header nav ul li {
     padding: 20px;
+    font-weight: bold;
+    font-size: 1.55vw;
+}
+
+Header nav ul li:hover {
+    font-size: 2vw;
+    transition: font-size .5s;
 }
             /* HEADER END */
 
