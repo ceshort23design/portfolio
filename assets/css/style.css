@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+            /* HEADER START */
+Header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+Header h1 {
+    font-weight: Bold;
+    font-size:  36px;
+}
+
+Header a {
+    text-decoration: none;
+    color: black;
+}
+
+Header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+Header nav ul li {
+    padding: 20px;
+}
+            /* HEADER END */
+
