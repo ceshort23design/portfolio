@@ -58,7 +58,7 @@ header nav ul li:hover {
             /* BIO START  */
 .bio {
     display: flex;
-    margin: 20px 35px;
+    margin: 35px;
 }
 
 .bio img {
@@ -69,7 +69,27 @@ header nav ul li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2vw 15px;
+    margin-top: 2vw;
+    margin-left: 20px;
 }
 
             /* BIO END */
+
+            /* PORTFOLIO START */
+.portfolio h2, .samples {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.samples li {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+}
+
+.samples img {
+    border-radius: 10px;
+}
+            /* PORTFOLIO END */
