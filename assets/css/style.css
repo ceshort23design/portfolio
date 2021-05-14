@@ -9,7 +9,7 @@ body {
 }
 
             /* HEADER START */
-Header {
+header {
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -20,14 +20,14 @@ Header {
     z-index: 9999;
 }
 
-Header h1 {
+header h1 {
     font-weight: Bold;
     font-size:  36px;
 
     height: 41px;
 }
 
-Header a {
+header a {
     text-decoration: none;
     color: black;
  
@@ -36,22 +36,40 @@ header nav {
     margin-right: 40px;
 }
 
-Header nav ul {
+header nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
 }
 
-Header nav ul li {
+header nav ul li {
     padding: 20px;
     font-weight: bold;
     font-size: 1.55vw;
 }
 
-Header nav ul li:hover {
+header nav ul li:hover {
     font-size: 2vw;
     transition: font-size .5s;
 }
             /* HEADER END */
 
+            /* BIO START  */
+.bio {
+    display: flex;
+    margin: 20px 35px;
+}
+
+.bio img {
+    border-radius: 20px;
+}
+
+.story h2, .story p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 15px;
+}
+
+            /* BIO END */
